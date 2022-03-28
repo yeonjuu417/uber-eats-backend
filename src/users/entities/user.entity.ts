@@ -9,7 +9,6 @@ import { BeforeInsert, BeforeUpdate, Column, Entity } from 'typeorm';
 import * as bcrypt from 'bcrypt';
 import { InternalServerErrorException } from '@nestjs/common';
 import { IsEmail, IsEnum } from 'class-validator';
-import { type } from 'os';
 
 enum UserRole {
     Client,
